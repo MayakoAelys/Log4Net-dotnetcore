@@ -48,7 +48,7 @@ namespace Banana.Toolbox.Logger
                 if (configFile.Exists) break;
             }
 
-            if (configFile == null) throw new NullReferenceException("Log4net config file not found.");
+            if (configFile == null || !configFile.Exists) throw new NullReferenceException("Log4net config file not found.");
 
             return configFile;
         }

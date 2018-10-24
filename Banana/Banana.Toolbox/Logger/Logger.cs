@@ -31,7 +31,7 @@ namespace Banana.Toolbox.Logger
 
             // Configure Log4Net
             XmlConfigurator.Configure(logRepository, configFile);
-            _log = LogManager.GetLogger(assembly, assembly.ManifestModule.Name.Replace(".dll", ""));
+            _log = LogManager.GetLogger(assembly, assembly.ManifestModule.Name.Replace(".dll", "").Replace(".", " "));
         }
 
         private static FileInfo GetConfigFile()

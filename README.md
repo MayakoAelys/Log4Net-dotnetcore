@@ -4,6 +4,6 @@ This solution shows how to implement Log4Net with a static helper class, keeping
 
 # Links
 
-**([.NET Core] Easy logging with log4net)[https://dev.mercymainb.tw/2018/10/19/dotnetcore-log4net/]**
+**[[.NET Core] Easy logging with log4net](https://dev.mercymainb.tw/2018/10/19/dotnetcore-log4net/)**
 
-**([.NET Core] Easy logging with log4net - Make logging even better)[https://dev.mercymainb.tw/2019/06/13/dotnetcore-log4net-2/]**
+**[[.NET Core] Easy logging with log4net - Make logging even better](https://dev.mercymainb.tw/2019/06/13/dotnetcore-log4net-2/)**
